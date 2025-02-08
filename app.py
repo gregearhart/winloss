@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Load dataset from the Downloads folder
-file_path = os.path.expanduser("https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/history.csv")  # Adjust path if necessary
+file_path = os.path.expanduser("https://github.com/gregearhart/winloss/blob/main/History.csv")  # Adjust path if necessary
 df = pd.read_csv(file_path)
 
 # Title
